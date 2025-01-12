@@ -1,0 +1,21 @@
+img.pres {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	background-color: rebeccapurple;
+	width: 40%;
+	margin: auto;
+	padding: 10px;
+	border-style: outset;
+	border-color: rebeccapurple;
+}
+
+h3 {
+	text-align: center;
+}
