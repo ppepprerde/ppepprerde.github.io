@@ -2,20 +2,89 @@ img.pres {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 40%;
 }
 
 h1 {
 	text-align: center;
 	color: white;
-	background-color: rebeccapurple;
+	background-color: #9c6eb5;
 	width: 40%;
 	margin: auto;
 	padding: 10px;
 	border-style: outset;
-	border-color: rebeccapurple;
+	border-color: #9c6eb5;
 }
 
 h3 {
 	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+div.hog {
+	text-align: center;
+	background-color: #ffd500;
+	width: 40%;
+	margin: auto;
+	padding: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+	font-family: monospace;
+	background-color: #694b7a;
+	width: 50%;
+	padding: 15px;
+	margin: auto;
+	transition: 0.1s;
+	border-style: outset;
+	border-color: #694b7a;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+	font-family: monospace;
+	background-color: #694b7a;
+	width: 50%;
+	padding: 15px;
+	margin: auto;
+	transition: 0.1s;
+	border-style: outset;
+	border-color: #694b7a;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+	font-family: monospace;
+	background-color: #694b7a;
+	width: 50%;
+	padding: 17px;
+	margin: auto;
+	border-color: #694b7a;
+}
+
+body {
+	background-color: #694b7a;
+}
+
+p {
+	text-align: center;
+}
+
+hr {
+	border-color: black;
+}
+
+hr.interlude {
+	width: 10%;
+	border-color: grey;
+	border-style: solid;
 }
