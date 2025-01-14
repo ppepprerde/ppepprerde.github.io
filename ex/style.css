@@ -79,6 +79,11 @@ p {
 	text-align: center;
 }
 
+p.bog {
+	text-align: center;
+	color: red;
+}
+
 hr {
 	border-color: black;
 }
